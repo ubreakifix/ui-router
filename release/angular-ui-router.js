@@ -1293,7 +1293,6 @@ function $UrlMatcherFactory() {
     any: { // does not encode/decode
       encode: angular.identity,
       decode: angular.identity,
-      is: angular.identity,
       equals: angular.equals,
       pattern: /.*/
     }
